@@ -86,8 +86,8 @@
       <p>
         <a href="#" class="btn btn-primary my-2">Main call to action</a>
         <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        <img src = "{% static 'profile pic.PNG' %}" height = 300/>
       </p>
+      <img src = "{% static 'profile pic.PNG' %}" height = 300/>
     </div>
   </section>
 
@@ -95,6 +95,7 @@
     <div class="container">
 
       <div class="row">
+      {% comment %} this section begins the card {% endcomment %}
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -110,6 +111,7 @@
             </div>
           </div>
         </div>
+        {% comment %} This section ends the card {% endcomment %}
       </div>
     </div>
   </div>
